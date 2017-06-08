@@ -1,0 +1,30 @@
+.header {
+  background: url(../img/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .btn-secondary {
+  border-color: #999;
+}
+
+.navbar .btn-secondary:hover {
+  background-color: transparent;
+}
+
+.jumbotron {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
