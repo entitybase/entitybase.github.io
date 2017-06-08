@@ -10,30 +10,96 @@
     <title>Entitybase</title>
   </head>
   <body>
-    <div class="header">
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+
+    <div class="header p-4">
+
+      <div class="navbar navbar-toggleable-md navbar-light">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/">Entitybase</a>
+        <a class="navbar-brand" href="/">
+          <img src="img/connections-black.svg" width="30" height="30" class="d-inline-block align-top" alt="Entitybase">
+          Entitybase
+        </a>
         <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-4">
-              <a class="nav-link btn btn-secondary btn-outline-secondary" href="https://dashboard.entitybase.io/users/sign_in">Sign in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-secondary btn-outline-secondary" href="https://dashboard.entitybase.io/users/sign_up">Sign up</a>
-            </li>
-          </ul>
+          <form class="form-inline my-2 my-lg-0 ml-auto">
+            <a class="btn btn-secondary btn-outline-secondary" href="https://dashboard.entitybase.io/users/sign_in">Sign in</a>
+            <a class="btn btn-secondary btn-outline-secondary ml-4" href="https://dashboard.entitybase.io/users/sign_up">Sign up</a>
+          </form>
         </div>
-      </nav>
+      </div>
+
       <div class="jumbotron text-center">
         <div class="container">
           <h1 class="sr-only">Entitybase</h1>
-          <h2 class="h1 jumbotron-heading">Design your API. The REST is magic!</h2>
-          <p class="lead">You're only minutes away from having a RESTful JSON API</p>
+          <h2 class="jumbotron-heading display-5">Design your API. The REST is magic!</h2>
+          <p class="lead mb-5">With Entitybase, you'll have a fully-hosted, secure and documented <br> RESTful JSON API up-and-running in minutes - not months.</p>
+          <p class="mb-0"><a class="btn btn-success btn-outline-success btn-lg" href="https://dashboard.entitybase.io/users/sign_up">Get started for free</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center bg-faded py-5">
+      <div class="container">
+        <h2 class="display-5 my-5">What is Entitybase?</h2>
+        <p class="lead">
+          Entitybase is a platform for creating APIs<br>
+          (not just documenting or mocking API responses like others out there).<br>
+          With Entitybase, you give your API a name, give it some resources<br>
+          (e.g. users, posts, tags and comments) and, just like magic, you're good to go.<br>
+          What used to take a team of developers months can now be done in minutes.
+        </p>
+      </div>
+    </div>
+
+    <div class="text-center py-5">
+      <h2 class="display-5 my-5">Some things you should know...</h2>
+      <p>&nbsp;</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <span class="display-2 oi oi-cloud"></span>
+            <h3 class="display-6 my-3">No Infrastructure</h3>
+            <p></p>
+          </div>
+          <div class="col">
+            <span class="display-2 oi oi-lock-locked"></span>
+            <h3 class="display-6 my-3">Safe as houses</h3>
+          </div>
+          <div class="col">
+            <span class="display-2 oi oi-code"></span>
+            <h3 class="display-6 my-3">Developer-freindly</h3>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <hr>
+    </div>
+
+    <div class="small text-muted py-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            &copy; 2017 Entitybase
+          </div>
+          <div class="col text-center">
+            <img src="img/connections-black.svg" width="20" height="20" alt="Entitybase">
+          </div>
+          <div class="col text-right">
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-http.min.js"></script>
   </body>
 </html>
