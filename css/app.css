@@ -1,21 +1,6 @@
-.display-5 {
-  font-size: 3rem;
-  font-weight: 300;
-  line-height: 1.1
-}
-
-.display-6 {
-  font-size: 2rem;
-  font-weight: 200;
-  line-height: 1.1
-}
-
 body {
-  background: #fff url(../img/triangles-teal.jpg) no-repeat 50% 0;
-}
-
-.header {
-  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  background: #fff url(../img/triangles-teal.jpg) no-repeat center top;
+  background-size: 100% auto;
 }
 
 .navbar .btn-secondary {
@@ -46,9 +31,22 @@ body {
   color: rgba(41, 43, 44, 0.6) !important;
 }
 
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.1
+}
+
+.display-6 {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.1
+}
+
 .fa {
   font-size: 5rem;
   width: 9rem;
   height: 9rem;
   border-radius: 4.5rem;
+  color: #0b6c8f;
 }
