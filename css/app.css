@@ -11,12 +11,11 @@
 }
 
 body {
-  background: url(../img/triangles-teal.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #fff url(../img/triangles-teal.jpg) no-repeat 50% 0;
+}
 
+.header {
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .navbar .btn-secondary {
