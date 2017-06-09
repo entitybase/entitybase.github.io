@@ -10,28 +10,46 @@
   line-height: 1.1
 }
 
-.header {
-  background: url(../img/triangles-blue.jpg) no-repeat center center fixed;
+body {
+  background: url(../img/triangles-teal.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .navbar .btn-secondary {
-  border-color: #292b2c;
-  color: #292b2c !important;
+  border-color: #fff;
+  color: #fff !important;
 }
 
 .navbar .btn-secondary:hover {
   background-color: transparent;
-  border-color: #999 !important;
-  color: #999 !important;
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .jumbotron {
-  padding: 10rem 0 12rem 0;
+  padding: 10rem 0 10rem 0;
   margin: 0;
   background-color: transparent;
+}
+
+.jumbotron .btn-secondary {
+  border-color: #292b2c;
+  color: #292b2c !important;
+}
+
+.jumbotron .btn-secondary:hover {
+  background-color: transparent;
+  border-color: rgba(41, 43, 44, 0.6) !important;
+  color: rgba(41, 43, 44, 0.6) !important;
+}
+
+.fa {
+  font-size: 5rem;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 4.5rem;
 }
