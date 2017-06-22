@@ -15,9 +15,32 @@ body {
 }
 
 .jumbotron {
-  padding: 10rem 0 10rem 0;
   margin: 0;
   background-color: transparent;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding: 10rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    padding: 10rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    padding: 10rem 0;
+  }
 }
 
 .jumbotron .btn-secondary {
